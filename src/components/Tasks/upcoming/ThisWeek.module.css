@@ -1,0 +1,46 @@
+.container {
+  border: 1.5px solid #e4e1e1;
+  border-radius: 18px;
+  padding: 30px;
+  margin-left: 40px;
+  width: 55svh;
+}
+
+.mainHeading {
+  font-size: 29px;
+  font-weight: 750;
+  margin-left: 30px;
+}
+
+.addNewTask {
+  margin-top: 20px;
+  margin-left: 32px;
+  border: 1px solid #cec6c6;
+  padding-block: 10px;
+  border-radius: 8px;
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: rgb(252, 239, 93); */
+  background-color: rgb(189, 194, 249);
+}
+
+.addNewTask img {
+  width: 30px;
+  height: auto;
+}
+
+.addNewTask p {
+  /* font-size: 17px; */
+  font-weight: 600;
+}
+
+.thisWeekItem {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.thisWeekListItems {
+  font-size: 20px;
+  font-weight: 200;
+}

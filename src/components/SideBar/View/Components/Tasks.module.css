@@ -1,0 +1,55 @@
+.item {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 12px;
+}
+
+.icon {
+  height: 16px;
+  margin-left: 13px;
+}
+
+.para {
+  background-color: rgb(228, 226, 226);
+  margin-left: 80px;
+  padding-inline: 4px;
+  padding-block: 1px;
+}
+
+.para1 {
+  background-color: rgb(228, 226, 226);
+  margin-left: 107px;
+}
+
+.para2 {
+  background-color: rgb(228, 226, 226);
+  margin-left: 87px;
+}
+
+.para3 {
+  background-color: rgb(228, 226, 226);
+  margin-left: 74px;
+}
+
+.item4 {
+  margin-bottom: 26px;
+}
+
+p {
+  margin: 0px;
+}
+
+.item p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin-block: 17px 7px;
+}
+
+img {
+  margin-block: auto;
+}

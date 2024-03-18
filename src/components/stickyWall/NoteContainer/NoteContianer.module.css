@@ -1,0 +1,53 @@
+.noteContainer {
+  height: 100%;
+}
+
+.noteContinerNotes {
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  overflow-y: scroll;
+}
+
+.AddNote {
+  background-color: #d3d3d3;
+  padding: 25px;
+  height: 300px;
+  width: 280px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.AddNote:hover {
+  background-color: #c8c7c7;
+}
+.AddNote img {
+  height: auto;
+  width: 70px;
+}
+
+.AddNote:hover img {
+  width: 85px;
+}
+
+.customScroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.customScroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.customScroll::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: rgb(40, 38, 38);
+  transition: 300ms;
+}
+
+.customScroll::-webkit-scrollbar-thumb:hover {
+  background-color: grey;
+}

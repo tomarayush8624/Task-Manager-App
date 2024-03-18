@@ -1,0 +1,57 @@
+.todayBox {
+  width: 110svh;
+  border-radius: 18px;
+  margin-left: 50px;
+  margin-top: 42px;
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+
+.addNewTask {
+  margin-top: 20px;
+  /* margin-left: 25px; */
+  border: 1px solid #cec6c6;
+  /* padding-inline: 25px; */
+  padding-block: 10px;
+  border-radius: 8px;
+  width: 193px;
+  /* height: 32px; */
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(189, 194, 249);
+  margin-bottom: 30px;
+}
+
+.addNewTask img {
+  width: 30px;
+  height: auto;
+}
+
+.addNewTask p {
+  font-weight: 600;
+}
+
+.todayItems {
+  padding-block: 10px;
+}
+
+hr {
+  color: rgba(255, 254, 254, 0.479);
+  width: 100%;
+}
+
+li input {
+  margin-right: 30px;
+}
+
+li label hr {
+  margin-block: 30px;
+}
+
+li label {
+  font-size: 20px;
+  font-weight: bold;
+}
